@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "license": "UNLICENSED",
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watchAll --verbose=false"
+    "test": "node_modules/.bin/jest",
+    "test:watch": "node_modules/.bin/jest --watchAll --verbose=false"
   },
   "devDependencies": {
     "jest": "^26.6.3",
